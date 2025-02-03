@@ -23,8 +23,8 @@
             <div class="grid md:grid-cols-2 gap-12">
                 <!-- Contact Information -->
                 <div>
-                    <h2 class="text-4xl font-bold text-gray-900">Get in Touch</h2>
-                    <p class="mt-4 text-xl text-gray-600">Have questions? Our team is here to help you.</p>
+                    <h2 class="text-4xl font-bold text-gray-900">Get in Touch with Skoolbridge</h2>
+                    <p class="mt-4 text-xl text-gray-600">Have questions? Our team at Skoolbridge is here to help you.</p>
                     <div class="mt-8 space-y-6">
                         <div class="flex items-center gap-4">
                             <span class="material-icons text-[#276F98]">phone</span>
@@ -32,7 +32,7 @@
                         </div>
                         <div class="flex items-center gap-4">
                             <span class="material-icons text-[#276F98]">email</span>
-                            <p class="text-lg text-gray-700">info@schoolapp.com</p>
+                            <p class="text-lg text-gray-700">info@skoolbridge.com</p>
                         </div>
                         <div class="flex items-center gap-4">
                             <span class="material-icons text-[#276F98]">location_on</span>
@@ -73,6 +73,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Map Section -->
     <section id="map" class="py-24 bg-white">

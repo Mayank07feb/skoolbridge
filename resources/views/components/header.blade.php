@@ -3,8 +3,8 @@
     class="fixed inset-x-0 top-0 z-50 mx-auto mt-4 flex w-[98%] max-w-[85rem] items-center justify-between rounded-2xl px-6 py-3 bg-gradient-to-r from-[#3B7CB8] to-[#276F98] backdrop-blur-lg shadow-lg">
     <!-- Logo Section -->
     <div>
-        <a href="/" class="text-2xl font-light text-white tracking-wider">SCHOOL<span
-                class="font-bold">APP</span></a>
+        <a href="/" class="text-2xl font-light text-white tracking-wider">Skool<span
+                class="font-bold">Bridge</span></a>
     </div>
 
     <!-- Navigation Links (Desktop) -->
@@ -17,8 +17,6 @@
             class="text-base font-light text-white hover:text-gray-300 transition-colors duration-200">Services</a>
         <a href="{{ route('contact-us') }}"
             class="text-base font-light text-white hover:text-gray-300 transition-colors duration-200">Contact</a>
-        <a href="#"
-            class="text-base font-light text-white hover:text-gray-300 transition-colors duration-200">Blog</a>
         <a href="#"
             class="ml-6 px-6 py-2 border-2 border-white text-white text-base font-light rounded-full hover:bg-white hover:text-black transition-all duration-200 book-btn">Book
             Demo</a>
@@ -46,8 +44,6 @@
         class="block text-base font-light text-white hover:text-gray-300 py-3 transition-colors duration-200">Services</a>
     <a href="{{ route('contact-us') }}"
         class="block text-base font-light text-white hover:text-gray-300 py-3 transition-colors duration-200">Contact</a>
-    <a href="#"
-        class="block text-base font-light text-white hover:text-gray-300 py-3 transition-colors duration-200">Blog</a>
     <a href="#"
         class="block border-2 border-white text-white text-base font-light rounded-full hover:bg-white hover:text-black text-center py-2 mt-6 transition-all duration-200"
         id="book-mobile-btn">Book Demo</a>

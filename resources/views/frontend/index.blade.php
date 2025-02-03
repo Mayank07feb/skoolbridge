@@ -5,8 +5,7 @@
 
         <!-- Hero Section -->
         <section class="relative rounded-lg bg-gradient-to-r from-[#3B7CB8] to-[#276F98] text-white py-32">
-            <div
-                class="absolute inset-0 bg-[url({{ asset('asset/images/gettyimages-820882982-1024x1024.jpg') }})] opacity-10">
+            <div class="absolute inset-0 bg-[url({{ asset('asset/images/about-1.jpg') }})] opacity-10">
             </div>
             <div class="max-w-7xl mx-auto px-6 relative">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -26,8 +25,7 @@
                         </div>
                     </div>
                     <div class="hidden md:block relative">
-                        <img src="{{ asset('asset/images/gettyimages-820882982-1024x1024.jpg') }}"
-                            alt="School Management App Interface"
+                        <img src="{{ asset('asset/images/about-1.jpg') }}" alt="School Management App Interface"
                             class="w-full max-w-md mx-auto transform hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -70,13 +68,13 @@
             </div>
         </section>
 
-        <!-- Enhanced Communication Section -->
+        <!-- About Skoolbridge Section -->
         <section class="py-24 bg-white">
             <div class="max-w-7xl mx-auto px-6">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="order-2 md:order-1 relative">
-                        <img src="{{ asset('asset/images/gettyimages-820882982-1024x1024.jpg') }}"
-                            alt="Communication Features" class="w-full rounded-2xl shadow-lg relative z-10">
+                        <img src="{{ asset('asset/images/about.jpg') }}" alt="Skoolbridge"
+                            class="w-full rounded-2xl shadow-lg relative z-10">
                         <!-- Floating Elements -->
                         <div class="absolute top-0 left-0 w-12 h-12 bg-blue-100/20 rounded-full animate-float"></div>
                         <div class="absolute bottom-0 right-0 w-8 h-8 bg-blue-200/20 rounded-full animate-float-delayed">
@@ -84,38 +82,42 @@
                     </div>
                     <div class="order-1 md:order-2">
                         <span class="inline-block px-4 py-2 bg-blue-100 text-[#276F98] rounded-full text-sm font-medium">
-                            Communication
+                            About Us
                         </span>
-                        <h2 class="text-4xl font-bold text-gray-900 mb-4">Seamless Communication Channels</h2>
-                        <p class="text-xl text-gray-600 mb-8">Connect with students, parents, and staff members through
-                            multiple channels for effective communication.</p>
+                        <h2 class="text-4xl font-bold text-gray-900 mb-4">Shaping the Future of Education</h2>
+                        <p class="text-xl text-gray-600 mb-8">Founded in 2025, Skoolbridge is committed to empowering
+                            educational institutions with innovative technology, providing tools that help educators,
+                            students, and parents collaborate seamlessly.</p>
                         <div class="grid grid-cols-2 gap-8">
-                            <div class="flex items *:start gap-4">
-                                <span class="material-icons text-[#276F98]">email</span>
+                            <div class="flex items-start gap-4">
+                                <span class="material-icons text-[#276F98]">school</span>
                                 <div>
-                                    <h4 class="font-semibold text-gray-900">Email Notifications</h4>
-                                    <p class="text-gray-600 mt-1">Automated email alerts and reminders</p>
+                                    <h4 class="font-semibold text-gray-900">500+ Schools</h4>
+                                    <p class="text-gray-600 mt-1">Trusted by institutions globally to enhance educational
+                                        experiences</p>
                                 </div>
                             </div>
-                            <div class="flex items *:start gap-4">
-                                <span class="material-icons text-[#276F98]">message</span>
+                            <div class="flex items-start gap-4">
+                                <span class="material-icons text-[#276F98]">groups</span>
                                 <div>
-                                    <h4 class="font-semibold text-gray-900">SMS Alerts</h4>
-                                    <p class="text-gray-600 mt-1">Instant text notifications for important updates</p>
+                                    <h4 class="font-semibold text-gray-900">1M+ Users</h4>
+                                    <p class="text-gray-600 mt-1">Empowering educators and students through our platform</p>
                                 </div>
                             </div>
-                            <div class="flex items *:start gap-4">
-                                <span class="material-icons text-[#276F98]">videocam</span>
+                            <div class="flex items-start gap-4">
+                                <span class="material-icons text-[#276F98]">public</span>
                                 <div>
-                                    <h4 class="font-semibold text-gray-900">Video Conferencing</h4>
-                                    <p class="text-gray-600 mt-1">Virtual meetings and parent-teacher conferences</p>
+                                    <h4 class="font-semibold text-gray-900">Global Reach</h4>
+                                    <p class="text-gray-600 mt-1">Expanding across 50+ countries, connecting educators
+                                        worldwide</p>
                                 </div>
                             </div>
-                            <div class="flex items *:start gap-4">
-                                <span class="material-icons text-[#276F98]">forum</span>
+                            <div class="flex items-start gap-4">
+                                <span class="material-icons text-[#276F98]">military_tech</span>
                                 <div>
-                                    <h4 class="font-semibold text-gray-900">Discussion Forums</h4>
-                                    <p class="text-gray-600 mt-1">Interactive platforms for students and teachers</p>
+                                    <h4 class="font-semibold text-gray-900">Award-Winning Platform</h4>
+                                    <p class="text-gray-600 mt-1">Recognized in the industry for innovation in education
+                                        technology</p>
                                 </div>
                             </div>
                         </div>
@@ -156,15 +158,16 @@
                         class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
                         <div
                             class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                            <span class="material-icons text-[#276F98] text-2xl">assessment</span>
+                            <span class="material-icons text-[#276F98] text-2xl">schedule</span>
                         </div>
-                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Performance Analytics</h3>
-                        <p class="text-gray-600 leading-relaxed mb-6">AI-powered academic tracking with customizable
-                            assessment tools and detailed progress reports.</p>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Timetable</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Effortlessly manage and view your academic timetable
+                            with easy navigation and customizable schedules.</p>
                         <a href="#" class="inline-flex items-center text-[#276F98] hover:gap-2 transition-all">
                             Learn More <span class="material-icons text-sm ml-1">arrow_forward</span>
                         </a>
                     </div>
+
 
                     <div
                         class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
@@ -183,27 +186,32 @@
 
                 <!-- Additional Features Grid -->
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+
                     <div class="flex items-start gap-4 p-6 bg-gray-50 rounded-xl">
-                        <span class="material-icons text-[#276F98]">calendar_today</span>
+                        <span class="material-icons text-[#276F98]">assessment</span>
                         <div>
-                            <h4 class="font-semibold text-gray-900">Timetable Management</h4>
-                            <p class="text-gray-600 mt-1">Smart scheduling with conflict resolution</p>
+                            <h4 class="font-semibold text-gray-900">Result Management</h4>
+                            <p class="text-gray-600 mt-1">View and analyze student results with detailed performance
+                                reports</p>
                         </div>
                     </div>
+
                     <div class="flex items-start gap-4 p-6 bg-gray-50 rounded-xl">
-                        <span class="material-icons text-[#276F98]">library_books</span>
+                        <span class="material-icons text-[#276F98]">person</span>
                         <div>
-                            <h4 class="font-semibold text-gray-900">Library System</h4>
-                            <p class="text-gray-600 mt-1">Digital catalog and borrowing management</p>
+                            <h4 class="font-semibold text-gray-900">Profile Management</h4>
+                            <p class="text-gray-600 mt-1">Manage student profiles and personal details</p>
                         </div>
                     </div>
+
                     <div class="flex items-start gap-4 p-6 bg-gray-50 rounded-xl">
-                        <span class="material-icons text-[#276F98]">directions_bus</span>
+                        <span class="material-icons text-[#276F98]">notifications</span>
                         <div>
-                            <h4 class="font-semibold text-gray-900">Transport Tracking</h4>
-                            <p class="text-gray-600 mt-1">Real-time bus tracking for parents</p>
+                            <h4 class="font-semibold text-gray-900">Notifications</h4>
+                            <p class="text-gray-600 mt-1">Stay updated with important announcements</p>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -537,8 +545,9 @@
             <div class="max-w-7xl mx-auto px-6">
                 <div class="grid md:grid-cols-2 gap-12">
                     <div>
-                        <h2 class="text-4xl font-bold text-gray-900">Get in Touch</h2>
-                        <p class="mt-4 text-xl text-gray-600">Have questions? Our team is here to help you.</p>
+                        <h2 class="text-4xl font-bold text-gray-900">Get in Touch with Skoolbridge</h2>
+                        <p class="mt-4 text-xl text-gray-600">Have questions? Our team at Skoolbridge is here to help you.
+                        </p>
                         <div class="mt-8 space-y-6">
                             <div class="flex items-center gap-4">
                                 <span class="material-icons text-[#276F98]">phone</span>
@@ -546,7 +555,7 @@
                             </div>
                             <div class="flex items-center gap-4">
                                 <span class="material-icons text-[#276F98]">email</span>
-                                <p class="text-lg text-gray-700">info@schoolapp.com</p>
+                                <p class="text-lg text-gray-700">info@skoolbridge.com</p>
                             </div>
                             <div class="flex items-center gap-4">
                                 <span class="material-icons text-[#276F98]">location_on</span>
@@ -582,7 +591,7 @@
                                     required></textarea>
                             </div>
                             <button type="submit"
-                                class="w-full px-8 py-4 bg-[#276F98] text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300">
+                                class="w-full px-8 py-4 bg-[#276F98] text-white font-semibold rounded-lg shadow-lg hover:bg-[#174158] transition-all duration-300">
                                 Send Message
                             </button>
                         </form>
