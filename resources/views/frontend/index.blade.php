@@ -341,185 +341,156 @@
         </section>
 
         <!-- Pricing Plans Section -->
-        <section class="py-20 bg-gradient-to-b from-gray-50 to-gray-100">
-            <div class="container mx-auto px-4 max-w-7xl">
-                <!-- Header -->
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Choose Your Plan</h2>
-                    <p class="text-lg text-gray-600">Select the perfect plan for your needs. Simple, transparent pricing.
-                    </p>
+<section class="py-20 bg-gradient-to-b from-gray-50 to-gray-100">
+    <div class="container mx-auto px-4 max-w-7xl">
+        <!-- Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Choose Your Plan</h2>
+            <p class="text-lg text-gray-600">Select the perfect plan for your needs. Simple, transparent pricing.</p>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Basic Plan -->
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <div class="p-8">
+                    <div class="text-center mb-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Basic</h3>
+                        <div class="text-gray-600 mb-6">Perfect for starters</div>
+                        <div class="flex items-center justify-center">
+                            <span class="text-4xl font-bold text-gray-900">₹829</span>
+                            <span class="text-gray-500 ml-2">/month</span>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Access to core features
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Basic support
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            1 GB storage
+                        </li>
+                    </ul>
                 </div>
-
-                <!-- Pricing Cards -->
-                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                    <!-- Basic Plan -->
-                    <div
-                        class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                        <div class="p-8">
-                            <div class="text-center mb-8">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Basic</h3>
-                                <div class="text-gray-600 mb-6">Perfect for starters</div>
-                                <div class="flex items-center justify-center">
-                                    <span class="text-4xl font-bold text-gray-900">$9.99</span>
-                                    <span class="text-gray-500 ml-2">/month</span>
-                                </div>
-                            </div>
-                            <ul class="space-y-4 mb-8">
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Access to core features
-                                </li>
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Basic support
-                                </li>
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    1 GB storage
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="px-8 pb-8">
-                            <button
-                                class="w-full bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
-                                Get Started
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Standard Plan (Popular) -->
-                    <div
-                        class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden relative transform md:scale-105 border-2 border-blue-500">
-                        <div
-                            class="absolute top-0 right-0 bg-[#276F98] text-white px-4 py-1 rounded-bl-lg text-sm font-semibold">
-                            POPULAR
-                        </div>
-                        <div class="p-8">
-                            <div class="text-center mb-8">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Standard</h3>
-                                <div class="text-gray-600 mb-6">Best for professionals</div>
-                                <div class="flex items-center justify-center">
-                                    <span class="text-4xl font-bold text-gray-900">$19.99</span>
-                                    <span class="text-gray-500 ml-2">/month</span>
-                                </div>
-                            </div>
-                            <ul class="space-y-4 mb-8">
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Everything in Basic
-                                </li>
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Priority support
-                                </li>
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    10 GB storage
-                                </li>
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Custom integrations
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="px-8 pb-8">
-                            <button
-                                class="w-full bg-[#276F98] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#3B7CB8] transition-colors duration-300">
-                                Get Started
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Premium Plan -->
-                    <div
-                        class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
-                        <div class="p-8">
-                            <div class="text-center mb-8">
-                                <h3 class="text-xl font-bold text-gray-900 mb-2">Premium</h3>
-                                <div class="text-gray-600 mb-6">For power users</div>
-                                <div class="flex items-center justify-center">
-                                    <span class="text-4xl font-bold text-gray-900">$29.99</span>
-                                    <span class="text-gray-500 ml-2">/month</span>
-                                </div>
-                            </div>
-                            <ul class="space-y-4 mb-8">
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Everything in Standard
-                                </li>
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Advanced analytics
-                                </li>
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Unlimited storage
-                                </li>
-                                <li class="flex items-center text-gray-600">
-                                    <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    24/7 phone support
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="px-8 pb-8">
-                            <button
-                                class="w-full bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
-                                Get Started
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Additional Info -->
-                <div class="text-center mt-12 text-gray-600">
-                    <p>All plans include a 14-day free trial. No credit card required.</p>
+                <div class="px-8 pb-8">
+                    <button class="w-full bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
+                        Get Started
+                    </button>
                 </div>
             </div>
-        </section>
+
+            <!-- Standard Plan (Popular) -->
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden relative transform md:scale-105 border-2 border-blue-500">
+                <div class="absolute top-0 right-0 bg-[#276F98] text-white px-4 py-1 rounded-bl-lg text-sm font-semibold">
+                    POPULAR
+                </div>
+                <div class="p-8">
+                    <div class="text-center mb-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Standard</h3>
+                        <div class="text-gray-600 mb-6">Best for professionals</div>
+                        <div class="flex items-center justify-center">
+                            <span class="text-4xl font-bold text-gray-900">₹1,665</span>
+                            <span class="text-gray-500 ml-2">/month</span>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Everything in Basic
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Priority support
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            10 GB storage
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Custom integrations
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-8 pb-8">
+                    <button class="w-full bg-[#276F98] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#3B7CB8] transition-colors duration-300">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <div class="p-8">
+                    <div class="text-center mb-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Premium</h3>
+                        <div class="text-gray-600 mb-6">For power users</div>
+                        <div class="flex items-center justify-center">
+                            <span class="text-4xl font-bold text-gray-900">₹2,495</span>
+                            <span class="text-gray-500 ml-2">/month</span>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Everything in Standard
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Advanced analytics
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Unlimited storage
+                        </li>
+                        <li class="flex items-center text-gray-600">
+                            <svg class="w-5 h-5 text-[#276F98] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            24/7 phone support
+                        </li>
+                    </ul>
+                </div>
+                <div class="px-8 pb-8">
+                    <button class="w-full bg-gray-900 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="text-center mt-12 text-gray-600">
+            <p>All plans include a 14-day free trial. No credit card required.</p>
+        </div>
+    </div>
+</section>
+
 
         <!-- CTA Section -->
         <section id="demo" class="py-24 rounded-lg bg-[#276F98]">
