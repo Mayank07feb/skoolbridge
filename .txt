@@ -1,0 +1,462 @@
+@extends('components.main')
+
+@section('content')
+    <main class="overflow-hidden">
+        <!-- Hero Section with Animated Background -->
+        <section class="relative bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 text-white py-36">
+            <div class="absolute inset-0 bg-[url('/pattern.svg')] opacity-10 animate-pulse"></div>
+            <div class="absolute inset-0 bg-[url('/grid.svg')] opacity-5"></div>
+            <div class="max-w-7xl mx-auto px-6 relative">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="text-left space-y-8">
+                        <span class="inline-block px-4 py-2 bg-blue-500/30 rounded-full text-blue-100 text-sm font-medium">
+                            Trusted by 500+ Schools
+                        </span>
+                        <h1 class="text-5xl md:text-7xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200">
+                            Transform Your School Management
+                        </h1>
+                        <p class="text-xl text-blue-100 leading-relaxed">
+                            Streamline operations, enhance communication, and elevate education with our AI-powered comprehensive school management platform.
+                        </p>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="#demo" class="group px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                                Start Free Trial
+                                <span class="inline-block ml-2 transform group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                            <a href="#features" class="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300 backdrop-blur-sm">
+                                Explore Features
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hidden md:block relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-transparent opacity-20 rounded-3xl"></div>
+                        <img src="{{ asset('images/school-app.png') }}" alt="School Management App Interface" 
+                             class="w-full max-w-md mx-auto rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500">
+                        <div class="absolute -bottom-4 -right-4 bg-gradient-to-br from-blue-400 to-blue-600 p-4 rounded-2xl shadow-lg">
+                            <div class="flex items-center gap-2">
+                                <span class="text-4xl font-bold">4.9</span>
+                                <div class="flex text-yellow-400">
+                                    ★★★★★
+                                </div>
+                            </div>
+                            <p class="text-sm opacity-90">User Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Floating Elements -->
+            <div class="absolute top-1/4 left-10 w-8 h-8 bg-blue-400/20 rounded-full animate-float"></div>
+            <div class="absolute bottom-1/4 right-10 w-12 h-12 bg-blue-300/20 rounded-full animate-float-delayed"></div>
+        </section>
+
+        <!-- Trusted By Section -->
+        <section class="py-12 bg-white border-b border-gray-100">
+            <div class="max-w-7xl mx-auto px-6">
+                <p class="text-center text-gray-600 font-medium mb-8">Trusted by leading educational institutions</p>
+                <div class="flex flex-wrap justify-center items-center gap-12 opacity-60">
+                    <img src="{{ asset('logos/school1.png') }}" alt="School 1" class="h-12 grayscale hover:grayscale-0 transition-all">
+                    <img src="{{ asset('logos/school2.png') }}" alt="School 2" class="h-12 grayscale hover:grayscale-0 transition-all">
+                    <img src="{{ asset('logos/school3.png') }}" alt="School 3" class="h-12 grayscale hover:grayscale-0 transition-all">
+                    <img src="{{ asset('logos/school4.png') }}" alt="School 4" class="h-12 grayscale hover:grayscale-0 transition-all">
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Stats Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100">
+                        <div class="inline-block p-4 bg-blue-100 rounded-xl mb-4">
+                            <span class="material-icons text-blue-600 text-3xl">school</span>
+                        </div>
+                        <p class="text-4xl font-bold text-blue-600 mb-2">500+</p>
+                        <p class="text-gray-600">Schools Trust Us</p>
+                    </div>
+                    <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100">
+                        <div class="inline-block p-4 bg-blue-100 rounded-xl mb-4">
+                            <span class="material-icons text-blue-600 text-3xl">groups</span>
+                        </div>
+                        <p class="text-4xl font-bold text-blue-600 mb-2">50K+</p>
+                        <p class="text-gray-600">Active Users</p>
+                    </div>
+                    <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100">
+                        <div class="inline-block p-4 bg-blue-100 rounded-xl mb-4">
+                            <span class="material-icons text-blue-600 text-3xl">thumb_up</span>
+                        </div>
+                        <p class="text-4xl font-bold text-blue-600 mb-2">98%</p>
+                        <p class="text-gray-600">Satisfaction Rate</p>
+                    </div>
+                    <div class="text-center p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100">
+                        <div class="inline-block p-4 bg-blue-100 rounded-xl mb-4">
+                            <span class="material-icons text-blue-600 text-3xl">support_agent</span>
+                        </div>
+                        <p class="text-4xl font-bold text-blue-600 mb-2">24/7</p>
+                        <p class="text-gray-600">Support Available</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Features Section -->
+        <section id="features" class="py-24 bg-gradient-to-b from-gray-50 to-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium mb-4">
+                        Features
+                    </span>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Comprehensive School Management Solution</h2>
+                    <p class="text-xl text-gray-600">Everything you need to run your educational institution efficiently</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Feature Cards with Hover Effects -->
+                    <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <span class="material-icons text-blue-600 text-2xl">school</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Smart Attendance</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Automated attendance tracking with real-time notifications to parents and detailed analytics for administration.</p>
+                        <a href="#" class="inline-flex items-center text-blue-600 hover:gap-2 transition-all">
+                            Learn More <span class="material-icons text-sm ml-1">arrow_forward</span>
+                        </a>
+                    </div>
+
+                    <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <span class="material-icons text-blue-600 text-2xl">assessment</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Performance Analytics</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">AI-powered academic tracking with customizable assessment tools and detailed progress reports.</p>
+                        <a href="#" class="inline-flex items-center text-blue-600 hover:gap-2 transition-all">
+                            Learn More <span class="material-icons text-sm ml-1">arrow_forward</span>
+                        </a>
+                    </div>
+
+                    <div class="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                        <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <span class="material-icons text-blue-600 text-2xl">payments</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Fee Management</h3>
+                        <p class="text-gray-600 leading-relaxed mb-6">Streamlined fee collection with multiple payment options and automated reminders for pending dues.</p>
+                        <a href="#" class="inline-flex items-center text-blue-600 hover:gap-2 transition-all">
+                            Learn More <span class="material-icons text-sm ml-1">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Additional Features Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                    <div class="flex items-start gap-4 p-6 bg-gray-50 rounded-xl">
+                        <span class="material-icons text-blue-600">calendar_today</span>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Timetable Management</h4>
+                            <p class="text-gray-600 mt-1">Smart scheduling with conflict resolution</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4 p-6 bg-gray-50 rounded-xl">
+                        <span class="material-icons text-blue-600">library_books</span>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Library System</h4>
+                            <p class="text-gray-600 mt-1">Digital catalog and borrowing management</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4 p-6 bg-gray-50 rounded-xl">
+                        <span class="material-icons text-blue-600">directions_bus</span>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Transport Tracking</h4>
+                            <p class="text-gray-600 mt-1">Real-time bus tracking for parents</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Communication Section -->
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1 relative">
+                        <img src="{{ asset('images/communication.png') }}" alt="Communication Features" 
+                             class="w-full rounded-2xl shadow-lg relative z-10">
+                        <!-- Floating Elements -->
+                        <div class="absolute top-0 left-0 w-12 h-12 bg-blue-100/20 rounded-full animate-float"></div>
+                        <div class="absolute bottom-0 right-0 w-8 h-8 bg-blue-200/20 rounded-full animate-float-delayed"></div>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <span class="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium">
+                            Communication
+                        </span>
+                        <h2 class="text-4xl font-bold text-gray-900 mb-4">Seamless Communication Channels</h2>
+                        <p class="text-xl text-gray-600 mb-8">Connect with students, parents, and staff members through multiple channels for effective communication.</p>
+                        <div class="grid grid-cols-2 gap-8">
+                            <div class="flex items *:start gap-4">
+                                <span class="material-icons text-blue-600">email</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Email Notifications</h4>
+                                    <p class="text-gray-600 mt-1">Automated email alerts and reminders</p>
+                                </div>
+                            </div>
+                            <div class="flex items *:start gap-4">
+                                <span class="material-icons text-blue-600">message</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">SMS Alerts</h4>
+                                    <p class="text-gray-600 mt-1">Instant text notifications for important updates</p>
+                                </div>
+                            </div>
+                            <div class="flex items *:start gap-4">
+                                <span class="material-icons text-blue-600">videocam</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Video Conferencing</h4>
+                                    <p class="text-gray-600 mt-1">Virtual meetings and parent-teacher conferences</p>
+                                </div>
+                            </div>
+                            <div class="flex items *:start gap-4">
+                                <span class="material-icons text-blue-600">forum</span>
+                                <div>
+                                    <h4 class="font-semibold text-gray-900">Discussion Forums</h4>
+                                    <p class="text-gray-600 mt-1">Interactive platforms for students and teachers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Request Demo Section -->
+        <section id="demo" class="py-24 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <span class="inline-block px-4 py-2 bg-blue-500/30 rounded-full text-blue-100 text-sm font-medium">
+                            Request Demo
+                        </span>
+                        <h2 class="text-4xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-200 mb-4">
+                            Get a Personalized Demo
+                        </h2>
+                        <p class="text-xl leading-relaxed mb-8">
+                            Schedule a free demo to explore the features and benefits of our school management platform.
+                        </p>
+                        <form action="#" method="POST" class="flex flex-wrap gap-4">
+                            <input type="text" name="name" placeholder="Your Name" class="w-full md:w-1/2 px-4 py-3 bg-white rounded-lg shadow-sm">
+                            <input type="email" name="email" placeholder="Your Email" class="w-full md:w-1/2 px-4 py-3 bg-white rounded-lg shadow-sm">
+                            <input type="tel" name="phone" placeholder="Your Phone" class="w-full md:w-1/2 px-4 py-3 bg-white rounded-lg shadow-sm">
+                            <button type="submit" class="w-full md:w-auto px-8 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                                Request Demo
+                            </button>
+                        </form>
+                    </div>
+                    <div class="hidden md:block relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-transparent opacity-20 rounded-3xl"></div>
+                        <img src="{{ asset('images/demo.png') }}" alt="Request Demo" 
+                             class="w-full max-w-md mx-auto rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500">
+                    </div>
+                </div>
+            </div>  
+        </section>
+    </main>
+@endsection 
+
+
+
+///////////About
+@extends('components.main')
+@section('content')
+    <!-- Page Title Section -->
+    <div class="relative bg-[#276F98] py-20 overflow-hidden">
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-[#276F98]/90"></div>
+            <!-- Background Pattern -->
+            <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                <pattern id="pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <circle cx="1" cy="1" r="1" fill="white" fill-opacity="0.1"/>
+                </pattern>
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern)"/>
+            </svg>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 relative">
+            <div class="flex flex-col items-center text-center">
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">About Us</h1>
+                <p class="text-xl text-blue-100 max-w-2xl">Empowering education through innovative technology solutions</p>
+                <nav class="mt-8 text-sm md:text-base">
+                    <ol class="flex items-center space-x-2 text-blue-100">
+                        <li><a href="{{ route('home') }}" class="hover:text-white transition-colors">Home</a></li>
+                        <li><span class="mx-2">›</span></li>
+                        <li class="text-white font-medium">About Us</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-b from-white to-gray-50 py-32">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="absolute -right-4 -bottom-4 w-full h-full border-2 border-[#276F98] rounded-2xl"></div>
+                    <img src="{{ asset('asset/images/gettyimages-820882982-1024x1024.jpg') }}" alt="Our Mission" 
+                         class="relative z-10 rounded-2xl shadow-xl w-full h-[500px] object-cover">
+                    <!-- Stats Overlay -->
+                    <div class="absolute -right-8 bottom-8 bg-white p-6 rounded-lg shadow-xl z-20">
+                        <div class="grid grid-cols-2 gap-8">
+                            <div class="text-center">
+                                <span class="block text-3xl font-bold text-[#276F98]">500+</span>
+                                <span class="text-gray-600">Schools</span>
+                            </div>
+                            <div class="text-center">
+                                <span class="block text-3xl font-bold text-[#276F98]">50+</span>
+                                <span class="text-gray-600">Countries</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <span class="inline-block px-4 py-2 bg-blue-100 text-[#276F98] rounded-full text-sm font-medium mb-6">
+                        Our Mission
+                    </span>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Transforming Education Through Technology</h2>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        We're passionate about revolutionizing how educational institutions manage their operations and engage with their communities. Our platform brings together innovative technology and intuitive design to create seamless educational experiences.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm">
+                            <span class="material-icons text-[#276F98] text-2xl">rocket_launch</span>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Innovation First</h4>
+                                <p class="text-gray-600">Pushing boundaries in educational technology</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-sm">
+                            <span class="material-icons text-[#276F98] text-2xl">psychology</span>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">User-Centered</h4>
+                                <p class="text-gray-600">Designed with educators and students in mind</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Journey Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="inline-block px-4 py-2 bg-blue-100 text-[#276F98] rounded-full text-sm font-medium mb-4">
+                    Our Journey
+                </span>
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">Growing Together Since 2020</h2>
+                <p class="text-xl text-gray-600">Our path to becoming a leading educational technology provider has been marked by continuous innovation and dedication to excellence.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="relative p-6 bg-gray-50 rounded-xl">
+                    <div class="absolute -top-4 left-6 w-8 h-8 bg-[#276F98] text-white rounded-full flex items-center justify-center font-bold">1</div>
+                    <h3 class="text-xl font-bold text-gray-900 mt-4 mb-2">Founded</h3>
+                    <p class="text-gray-600">Started with a vision to transform education</p>
+                </div>
+                <div class="relative p-6 bg-gray-50 rounded-xl">
+                    <div class="absolute -top-4 left-6 w-8 h-8 bg-[#276F98] text-white rounded-full flex items-center justify-center font-bold">2</div>
+                    <h3 class="text-xl font-bold text-gray-900 mt-4 mb-2">Growth</h3>
+                    <p class="text-gray-600">Expanded to 100+ schools in first year</p>
+                </div>
+                <div class="relative p-6 bg-gray-50 rounded-xl">
+                    <div class="absolute -top-4 left-6 w-8 h-8 bg-[#276F98] text-white rounded-full flex items-center justify-center font-bold">3</div>
+                    <h3 class="text-xl font-bold text-gray-900 mt-4 mb-2">Innovation</h3>
+                    <p class="text-gray-600">Launched advanced analytics platform</p>
+                </div>
+                <div class="relative p-6 bg-gray-50 rounded-xl">
+                    <div class="absolute -top-4 left-6 w-8 h-8 bg-[#276F98] text-white rounded-full flex items-center justify-center font-bold">4</div>
+                    <h3 class="text-xl font-bold text-gray-900 mt-4 mb-2">Global</h3>
+                    <p class="text-gray-600">Now present in 50+ countries</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="inline-block px-4 py-2 bg-blue-100 text-[#276F98] rounded-full text-sm font-medium mb-4">
+                    Our Team
+                </span>
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">Meet the Leaders</h2>
+                <p class="text-xl text-gray-600">Passionate professionals dedicated to transforming education through technology.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Team Member Card -->
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="aspect-w-3 aspect-h-4">
+                        <img src="{{ asset('asset/images/team-1.jpg') }}" alt="Team Member" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900">John Doe</h3>
+                        <p class="text-[#276F98] mb-4">Chief Executive Officer</p>
+                        <p class="text-gray-600">15+ years of experience in EdTech</p>
+                    </div>
+                </div>
+                <!-- Repeat for other team members -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-24 bg-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute inset-0 bg-[#276F98]"></div>
+            <!-- Background Pattern -->
+            <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+                <pattern id="values-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <circle cx="1" cy="1" r="1" fill="currentColor"/>
+                </pattern>
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#values-pattern)"/>
+            </svg>
+        </div>
+        <div class="max-w-7xl mx-auto px-6 relative">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="inline-block px-4 py-2 bg-blue-100 text-[#276F98] rounded-full text-sm font-medium mb-4">
+                    Our Values
+                </span>
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">What Drives Us Forward</h2>
+                <p class="text-xl text-gray-600">Our core values shape everything we do and guide us in creating meaningful impact in education.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <span class="material-icons text-[#276F98] text-3xl">lightbulb</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Innovation</h3>
+                    <p class="text-gray-600">Continuously pushing boundaries to create better educational solutions.</p>
+                    <ul class="mt-6 space-y-2">
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <span class="material-icons text-[#276F98] text-sm">check_circle</span>
+                            Research-driven development
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <span class="material-icons text-[#276F98] text-sm">check_circle</span>
+                            Cutting-edge technology
+                        </li>
+                    </ul>
+                </div>
+                <!-- Repeat for other values -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="py-24 bg-[#276F98]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center text-white max-w-3xl mx-auto">
+                <h2 class="text-4xl font-bold mb-6">Ready to Transform Your Institution?</h2>
+                <p class="text-xl text-blue-100 mb-8">Join 500+ schools already using our platform to enhance their educational experience.</p>
+                <button class="px-8 py-3 bg-white text-[#276F98] rounded-lg hover:bg-blue-50 transition-colors font-semibold">
+                    Contact Us Today
+                </button>
+            </div>
+        </div>
+    </section>
+@endsection
